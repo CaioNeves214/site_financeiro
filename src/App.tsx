@@ -7,9 +7,11 @@ function App() {
     <head>
       <title>FinDashboard</title>  
     </head>
-      <h1 className="text-red-400 flex justify-center items-center text-5xl hover:text-red-600 hover:cursor-pointer">
-        Hello World !
-      </h1>
+      <div className="flex justify-center items-center shadow-black shadow-2xl pb-50 my-30 ml-60 mr-60 bg-white rounded-lg">
+        <h2 className="text-4xl hover:text-gray-200 hover:cursor-pointer pt-5">
+          Lançamentos Financeiros
+        </h2>
+      </div>
     </>
   )
 }
